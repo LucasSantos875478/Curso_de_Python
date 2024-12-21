@@ -1,25 +1,12 @@
-# desconto para a loja
+# Verificando se é obrigatório votar
 
-# recebendo o valor gastado, se a pessoa tem um cadastro e sua idade
-cadastro = input('Você é cadastrado na loja: [s/n] ')
+# Recebendo a idade da pessoa
 idade = int(input('Qual a sua idade: '))
-valor_gasto = float(input('Qual o valor gastado na compra: '))
 
-# 1ª forma de resolver
-
-if cadastro == 's':
-    if idade >= 18:
-        if valor_gasto >= 50:
-            print('Você recebeu um desconto')
-        else:
-            print('Você não recebeu um desconto')
-    else:
-        print('Você não recebeu um desconto')
+# Fazendo os testes de acordo com as regras eleitorais no Brasil
+if idade < 16:
+    print('Você não pode votar.')  # Menores de 16 anos não podem votar
+elif idade < 18 or idade > 70:
+    print('Seu voto é opcional.')  # Voto é opcional para menores de 18 ou maiores de 70
 else:
-    print('Você não recebeu um desconto')
-
-# 2ª forma de resolver
-if cadastro == 's' and idade >= 18 and valor_gasto >= 50:
-    print('Você recebeu um desconto')
-else:
-    print('Você não recebeu um desconto')
+    print('Seu voto é obrigatório.')  # Voto obrigatório para quem tem entre 18 e 70 anos

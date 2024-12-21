@@ -502,26 +502,31 @@ Agora é hora de trinar, faça os exercícios abaixo para fixar o conhecimento. 
 
 Exercícios:
 
-Exercício 1:
+Exercício 6:
 ```
 Receba cinco notas do usuário e calcule a sua média, caso a sua média seja maior que 7 ele foi aprovado, se sua média está entre 5 e 6.9 ele está de recuperação, caso a sua média seja menor que 5 ele está reprovado.
 ```
 
-Exercício 2:
+Exercício 7:
 ```
 Receba um ano do usuário e retorne se o ano é bissexto ou não.
 
 Dica: lembre da função do %
 ```
 
-Exercício 3:
+Exercício 8:
 ```
 Receba uma senha do usuário e faça a confirmação. caso elas sejam iguais mostre que as senhas são iguais, caso sejam diferentes diga que são diferentes.
 ```
 
-Exercício 4:
+Exercício 9:
 ```
 Suponhamos que você vai dar um desconto num determinado produto da sua loja, mas para isso a pessoa precisa ter um cadastro na sua loja, ter gastado mais de R$50,00 e ter mais de 18 anos.
+```
+
+Exercício 10:
+```
+O seu código precisa receber a idade de uma pessoa qualquer e analisar se a pessoa é obrigada a votar, se o voto é opcional ou se ela não pode votar
 ```
 
 Lembre-se primeiro tente fazer, pois é apenas assim que você vai realmente aprender, caso não consiga fazer consulte o código já feito.
